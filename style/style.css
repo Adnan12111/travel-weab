@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&family=Work+Sans:wght@400;600;700&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.btn-praimary{
+    background-color:rgb(155, 65, 239) ;
+    color: white;
+    width: 170px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.common-titel{
+    font-size: 48px;
+    font-weight: 800;
+}
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.aloplane{
+    color: rgb(155, 65, 239);
+}
+.nav-titel{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 36px;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;font-weight: 400;
+}
+/* banner style */
+
+.banner{
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) , url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    height: 500px;
+    color: white;
+    margin-top: 50px;
+    border-radius: 16px;
+    
+}
+.banner-con{
+    padding: 110px 200px ;
+}
+.banner-titel{
+    font-size: 65px;
+    font-weight: 800;
+}
+.banner-dis{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 44px;
+}
+.banner-form{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 15px;
+    border-radius: 16px;
+}
+.where{
+    width: 170px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+select{
+    width: 170px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+/*  Popular style */
+.Popular{
+    display: flex;
+    
+    gap: 50px;
+    margin-top: 100px;
+}
+.popular-dis{
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.popular-img img{
+  
+    height: 500px;
+    width: 500px;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    *{
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        gap: 10px;
+    }
+    .banner{
+        width: 300px;
+        height: 100%;
+    }
+    .banner-con{
+        padding: 10px;
+    }
+    .banner-form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner-titel{
+        font-size: 22px;
+    }
+    .Popular{
+        flex-direction: column;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .popular-img img{
+  
+        height: 100%;
+        width: 300px%;
+    }
+   .common-titel{
+    font-size: 20px;
+   }
+}
