@@ -307,8 +307,8 @@ select{
 }
 /* footer */
 footer{
-    background: rgba(19, 19, 24, 0.05);
-    padding: 200px;
+    background-color: rgb(237, 228, 220);
+    padding: 150px;
 }
 .foot-titel{
     display:flex;
